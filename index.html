@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>EduTechStar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" 
+              type="text/css">
+        <script type="text/javascript" src="bootstrap/js/jquery-3.5.1.min.js" >
+            </script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js">
+            </script>
+        <link href="External.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid container_top navbar-fixed-top">
+                <div>
+                    <div  id="navbarbutton">
+                        <button type="button" 
+                            data-toggle="collapse" data-target="#left_panel" >
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="list_item col-xs-offset-2 col-xs-6 col-md-offset-4 col-md-4" id="brandname">
+                        <a href="index.html" class="">EduTechStar
+                        </a>
+                    </div>
+                    <div>
+                        <button type="button" 
+                            data-toggle="collapse" data-target="#loginform"
+                            class="btn loginBtn">Login
+                        </button>
+                    </div>
+                    
+                </div>
+        </div>
+        <div class="thumbnail container-fluid">
+                <div class="col-md-3 collapse" id="left_panel">
+                    <div >
+                    <ul style="width: 100%">
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                    <li>
+                        <a href="" class="nav-link  dropdown-toggle"
+                           data-toggle="dropdown">Class 8
+                        <span class=" glyphicon glyphicon-collapse-down"></span>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="">subject 1</a></li>
+                             <li><a class="dropdown-item" href=" ">subject 2</a></li>   
+                            <li><a class="dropdown-item" href="">subject 3</a></li>
+                                
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link  dropdown-toggle"
+                           data-toggle="dropdown">Class 9
+                        <span class=" glyphicon glyphicon-collapse-down"></span>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="">subject 1</a></li>
+                             <li><a class="dropdown-item" href=" ">subject 2</a></li>   
+                            <li><a class="dropdown-item" href="">subject 3</a></li>
+                                
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link  dropdown-toggle"
+                           data-toggle="dropdown">Teachers
+                        <span class=" glyphicon glyphicon-collapse-down"></span>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="">Teaching at EduTechStar</a></li>
+                             <li><a class="dropdown-item" href=" ">Meet our Teachers</a></li>   
+                            <li><a class="dropdown-item" href="">Apply now</a></li>
+                                
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link  dropdown-toggle"
+                           data-toggle="dropdown">Terms and Policies
+                        <span class=" glyphicon glyphicon-collapse-down"></span>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="">Privacy Policy</a></li>
+                             <li><a class="dropdown-item" href=" ">Payments and Refunds</a></li>   
+                            
+                        </ul>
+                    </li>
+                    </ul>
+                    </div>
+                </div>
+            <div class="container col-md-9">
+                <div id="bannerimage">
+                    <div class="banner_content col-xs-offset-6" >
+                    <h2>We Inspire !!</h2>
+                    
+                    </div>
+                    <div class="banner_content col-xs-offset-5" >
+                    <h2>We Motivate !!</h2>
+                    
+                    </div>
+                    <div class="banner_content col-xs-offset-4" >
+                    <h2>We Care !!</h2>
+                    
+                    </div>
+                    <div class="banner_content col-xs-offset-3" >
+                    <h2>We Teach !!</h2>
+                    
+                    </div>
+                    <div class="banner_content col-xs-offset-2 col-xs-10" >
+                        <form>
+                            <input type="text" class="searchbox" name="search"
+                                   placeholder="Search Courses, Subjects,...">
+                        
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="loginform" class="col-xs-12 collapse">
+                <!--use class collapse to keep it closed by default -->
+            <div class=" col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3
+                      col-md-4 col-md-offset-4">
+                    <div class="panel panel-default">
+                        
+                        <div class="panel-heading">
+                            <h4>Login Here</h4>
+                        </div>
+                        
+                        <div class="panel-body">
+                            <form>
+                                <div class="form-group">
+                                    
+                                    <div>
+                                    <input type="email" name="email" 
+                                           class="form-control"
+                                           placeholder="Type email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" name="password" 
+                                           class="form-control"
+                                           placeholder="Password more than 5 char." 
+                                           pattern=".{6,}">
+                                    <br>
+                                    <div style=" color: red; text-align: center;
+                                          ">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                <button class="btn btn-primary ">
+                                    Submit
+                                </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="panel-footer"><center>
+                            <h5>
+                                Not a registered user yet? Then 
+                            </h5>
+                            <a href="" class="btn btn-warning">
+                                        Sign up
+                                </a>
+                            </center>
+                        </div>
+                    </div>
+                    </div>
+                <div class="col-xs-12">
+                    <br>
+                </div>
+        </div>
+        <footer class="indexfooter navbar-fixed-bottom">
+            <div class="container">
+                <center>
+                    Copyright © EduTechStar. All rights reserved |
+                 Contact us: +91 9000000000
+                </center>
+            </div>  
+        </footer>
+    </body>
+</html>
